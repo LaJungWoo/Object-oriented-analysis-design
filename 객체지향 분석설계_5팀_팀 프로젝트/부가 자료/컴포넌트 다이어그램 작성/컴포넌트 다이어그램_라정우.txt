@@ -1,0 +1,32 @@
+User UI.exe -> interface_login -> Login.exe
+
+User UI.exe -> interface_setting -> setting.exe
+
+User UI.exe -> interface_serch -> serch.exe
+
+User UI.exe -> interface_management -> management.exe
+
+Manager UI.exe -> user_info.exe -> interface_user_management -> management.exe
+
+Manager UI.exe -> interface_ban_user -> ban.exe
+
+
+
+
+
+
+
+
+컴포넌트 선정.
+
+1. User_UI.exe
+2. Login.exe
+3. Setting.exe
+4. serch.exe
+5. management_user_notice.exe
+
+6. user_info.exe  <<library>>
+
+7. Manager_UI.exe
+8. Ban_user.exe
+
